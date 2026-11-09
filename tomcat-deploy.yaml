@@ -17,6 +17,6 @@ spec:
        - name: passwd-for-docker-hub
      containers:
        - name: tomcat
-         image:  cdtsbikaner/devops150624:BUILD_NUMBER
+         image:  ssem686/docker_test:BUILD_NUMBER
          ports:
           - containerPort: 8080
